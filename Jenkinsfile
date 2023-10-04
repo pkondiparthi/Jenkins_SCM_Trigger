@@ -8,7 +8,7 @@ pipeline {
         }
          stage('test 2') {
             steps {
-                echo 'triggering pipeline'
+                echo 'triggering pipeline for 2nd time'
             }
         }
     }
